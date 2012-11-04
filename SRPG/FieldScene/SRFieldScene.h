@@ -25,7 +25,8 @@ typedef enum{
 @class SRUnitLayer;
 @class SRAreaLayer;
 
-@interface SRFieldScene : CCScene{
+@interface SRFieldScene : CCScene
+{
     SRMapLayer          *_mapLayer;
     SRAreaLayer         *_areaLayer;
     SRUnitLayer         *_unitLayer;

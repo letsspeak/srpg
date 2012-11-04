@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E2C1626154411C800A7ADDD /* SRAreaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C1625154411C800A7ADDD /* SRAreaLayer.m */; };
-		0E350F411544453D0010BF5A /* SRArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E350F401544453D0010BF5A /* SRArea.m */; };
-		0E4554D115565C7D00B73E02 /* SRRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4554D015565C7D00B73E02 /* SRRoute.m */; };
 		0E59AC60150EBDA4008DB903 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E59AC5F150EBDA4008DB903 /* QuartzCore.framework */; };
 		0E59AC62150EBDA4008DB903 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E59AC61150EBDA4008DB903 /* OpenGLES.framework */; };
 		0E59AC64150EBDA4008DB903 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E59AC63150EBDA4008DB903 /* OpenAL.framework */; };
@@ -128,19 +125,17 @@
 		0E59ADD71518A9C7008DB903 /* pc01_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E59ADD51518A9C7008DB903 /* pc01_00.png */; };
 		0E7801501544235700634322 /* areachip-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E78014E1544235700634322 /* areachip-hd.png */; };
 		0E7801511544235700634322 /* areachip.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E78014F1544235700634322 /* areachip.png */; };
-		0E7801551544272300634322 /* SRUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7801541544272300634322 /* SRUnit.m */; };
-		0E9237DD1543C005004F43F6 /* SRUnitLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9237DC1543C005004F43F6 /* SRUnitLayer.m */; };
-		0EF5A64B151DBC0D00718BED /* SRMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5A64A151DBC0D00718BED /* SRMapLayer.m */; };
-		0EF5A64E151DCB0900718BED /* SRFieldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5A64D151DCB0900718BED /* SRFieldScene.m */; };
+		0E88273D164652C000D2F5BD /* SRMapChip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88273C164652C000D2F5BD /* SRMapChip.m */; };
+		0E882745164658AC00D2F5BD /* SRArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E882740164658AB00D2F5BD /* SRArea.m */; };
+		0E882746164658AC00D2F5BD /* SRRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E882742164658AB00D2F5BD /* SRRoute.m */; };
+		0E882747164658AC00D2F5BD /* SRUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E882744164658AC00D2F5BD /* SRUnit.m */; };
+		0E882750164658C000D2F5BD /* SRAreaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E882749164658BA00D2F5BD /* SRAreaLayer.m */; };
+		0E882751164658C000D2F5BD /* SRFieldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88274B164658BB00D2F5BD /* SRFieldScene.m */; };
+		0E882752164658C000D2F5BD /* SRMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88274D164658BD00D2F5BD /* SRMapLayer.m */; };
+		0E882753164658C000D2F5BD /* SRUnitLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88274F164658BF00D2F5BD /* SRUnitLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E2C1624154411C800A7ADDD /* SRAreaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAreaLayer.h; sourceTree = "<group>"; };
-		0E2C1625154411C800A7ADDD /* SRAreaLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAreaLayer.m; sourceTree = "<group>"; };
-		0E350F3F1544453D0010BF5A /* SRArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRArea.h; sourceTree = "<group>"; };
-		0E350F401544453D0010BF5A /* SRArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRArea.m; sourceTree = "<group>"; };
-		0E4554CF15565C7D00B73E02 /* SRRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRoute.h; sourceTree = "<group>"; };
-		0E4554D015565C7D00B73E02 /* SRRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRoute.m; sourceTree = "<group>"; };
 		0E59AC5B150EBDA4008DB903 /* SRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E59AC5F150EBDA4008DB903 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0E59AC61150EBDA4008DB903 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -378,16 +373,24 @@
 		0E59ADD51518A9C7008DB903 /* pc01_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pc01_00.png; path = Resources/pc01_00.png; sourceTree = "<group>"; };
 		0E78014E1544235700634322 /* areachip-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "areachip-hd.png"; path = "Resources/areachip-hd.png"; sourceTree = "<group>"; };
 		0E78014F1544235700634322 /* areachip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = areachip.png; path = Resources/areachip.png; sourceTree = "<group>"; };
-		0E7801531544272300634322 /* SRUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRUnit.h; sourceTree = "<group>"; };
-		0E7801541544272300634322 /* SRUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRUnit.m; sourceTree = "<group>"; };
 		0E780158154428A000634322 /* SRPG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRPG.h; sourceTree = "<group>"; };
 		0E780159154428F500634322 /* SRTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRTypes.h; sourceTree = "<group>"; };
-		0E9237DB1543C005004F43F6 /* SRUnitLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRUnitLayer.h; sourceTree = "<group>"; };
-		0E9237DC1543C005004F43F6 /* SRUnitLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRUnitLayer.m; sourceTree = "<group>"; };
-		0EF5A649151DBC0D00718BED /* SRMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRMapLayer.h; path = ../SRMapLayer.h; sourceTree = "<group>"; };
-		0EF5A64A151DBC0D00718BED /* SRMapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRMapLayer.m; path = ../SRMapLayer.m; sourceTree = "<group>"; };
-		0EF5A64C151DCB0900718BED /* SRFieldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRFieldScene.h; sourceTree = "<group>"; };
-		0EF5A64D151DCB0900718BED /* SRFieldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRFieldScene.m; sourceTree = "<group>"; };
+		0E88273B164652C000D2F5BD /* SRMapChip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRMapChip.h; path = models/SRMapChip.h; sourceTree = "<group>"; };
+		0E88273C164652C000D2F5BD /* SRMapChip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRMapChip.m; path = models/SRMapChip.m; sourceTree = "<group>"; };
+		0E88273F164658AB00D2F5BD /* SRArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRArea.h; path = models/SRArea.h; sourceTree = "<group>"; };
+		0E882740164658AB00D2F5BD /* SRArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRArea.m; path = models/SRArea.m; sourceTree = "<group>"; };
+		0E882741164658AB00D2F5BD /* SRRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRRoute.h; path = models/SRRoute.h; sourceTree = "<group>"; };
+		0E882742164658AB00D2F5BD /* SRRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRRoute.m; path = models/SRRoute.m; sourceTree = "<group>"; };
+		0E882743164658AB00D2F5BD /* SRUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRUnit.h; path = models/SRUnit.h; sourceTree = "<group>"; };
+		0E882744164658AC00D2F5BD /* SRUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRUnit.m; path = models/SRUnit.m; sourceTree = "<group>"; };
+		0E882748164658BA00D2F5BD /* SRAreaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRAreaLayer.h; path = FieldScene/SRAreaLayer.h; sourceTree = "<group>"; };
+		0E882749164658BA00D2F5BD /* SRAreaLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRAreaLayer.m; path = FieldScene/SRAreaLayer.m; sourceTree = "<group>"; };
+		0E88274A164658BA00D2F5BD /* SRFieldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRFieldScene.h; path = FieldScene/SRFieldScene.h; sourceTree = "<group>"; };
+		0E88274B164658BB00D2F5BD /* SRFieldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRFieldScene.m; path = FieldScene/SRFieldScene.m; sourceTree = "<group>"; };
+		0E88274C164658BC00D2F5BD /* SRMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRMapLayer.h; path = FieldScene/SRMapLayer.h; sourceTree = "<group>"; };
+		0E88274D164658BD00D2F5BD /* SRMapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRMapLayer.m; path = FieldScene/SRMapLayer.m; sourceTree = "<group>"; };
+		0E88274E164658BE00D2F5BD /* SRUnitLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRUnitLayer.h; path = FieldScene/SRUnitLayer.h; sourceTree = "<group>"; };
+		0E88274F164658BF00D2F5BD /* SRUnitLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRUnitLayer.m; path = FieldScene/SRUnitLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,7 +453,7 @@
 				0E59ADC2150EBDA6008DB903 /* AppDelegate.m */,
 				0E59ADC4150EBDA6008DB903 /* RootViewController.h */,
 				0E59ADC5150EBDA7008DB903 /* RootViewController.m */,
-				0E7801571544275000634322 /* model */,
+				0E7801571544275000634322 /* models */,
 				0E7801561544273000634322 /* FieldScene */,
 				0E59ADCA150EBDA7008DB903 /* GameConfig.h */,
 				0E59AC70150EBDA4008DB903 /* Resources */,
@@ -795,29 +798,31 @@
 		0E7801561544273000634322 /* FieldScene */ = {
 			isa = PBXGroup;
 			children = (
-				0EF5A64C151DCB0900718BED /* SRFieldScene.h */,
-				0EF5A64D151DCB0900718BED /* SRFieldScene.m */,
-				0E9237DB1543C005004F43F6 /* SRUnitLayer.h */,
-				0E9237DC1543C005004F43F6 /* SRUnitLayer.m */,
-				0E2C1624154411C800A7ADDD /* SRAreaLayer.h */,
-				0E2C1625154411C800A7ADDD /* SRAreaLayer.m */,
-				0EF5A649151DBC0D00718BED /* SRMapLayer.h */,
-				0EF5A64A151DBC0D00718BED /* SRMapLayer.m */,
+				0E882748164658BA00D2F5BD /* SRAreaLayer.h */,
+				0E882749164658BA00D2F5BD /* SRAreaLayer.m */,
+				0E88274A164658BA00D2F5BD /* SRFieldScene.h */,
+				0E88274B164658BB00D2F5BD /* SRFieldScene.m */,
+				0E88274C164658BC00D2F5BD /* SRMapLayer.h */,
+				0E88274D164658BD00D2F5BD /* SRMapLayer.m */,
+				0E88274E164658BE00D2F5BD /* SRUnitLayer.h */,
+				0E88274F164658BF00D2F5BD /* SRUnitLayer.m */,
 			);
 			name = FieldScene;
 			sourceTree = "<group>";
 		};
-		0E7801571544275000634322 /* model */ = {
+		0E7801571544275000634322 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				0E7801531544272300634322 /* SRUnit.h */,
-				0E7801541544272300634322 /* SRUnit.m */,
-				0E350F3F1544453D0010BF5A /* SRArea.h */,
-				0E350F401544453D0010BF5A /* SRArea.m */,
-				0E4554CF15565C7D00B73E02 /* SRRoute.h */,
-				0E4554D015565C7D00B73E02 /* SRRoute.m */,
+				0E88273F164658AB00D2F5BD /* SRArea.h */,
+				0E882740164658AB00D2F5BD /* SRArea.m */,
+				0E882741164658AB00D2F5BD /* SRRoute.h */,
+				0E882742164658AB00D2F5BD /* SRRoute.m */,
+				0E882743164658AB00D2F5BD /* SRUnit.h */,
+				0E882744164658AC00D2F5BD /* SRUnit.m */,
+				0E88273B164652C000D2F5BD /* SRMapChip.h */,
+				0E88273C164652C000D2F5BD /* SRMapChip.m */,
 			);
-			name = model;
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -990,13 +995,14 @@
 				0E59ADC0150EBDA6008DB903 /* main.m in Sources */,
 				0E59ADC3150EBDA6008DB903 /* AppDelegate.m in Sources */,
 				0E59ADC6150EBDA7008DB903 /* RootViewController.m in Sources */,
-				0EF5A64B151DBC0D00718BED /* SRMapLayer.m in Sources */,
-				0EF5A64E151DCB0900718BED /* SRFieldScene.m in Sources */,
-				0E9237DD1543C005004F43F6 /* SRUnitLayer.m in Sources */,
-				0E2C1626154411C800A7ADDD /* SRAreaLayer.m in Sources */,
-				0E7801551544272300634322 /* SRUnit.m in Sources */,
-				0E350F411544453D0010BF5A /* SRArea.m in Sources */,
-				0E4554D115565C7D00B73E02 /* SRRoute.m in Sources */,
+				0E88273D164652C000D2F5BD /* SRMapChip.m in Sources */,
+				0E882745164658AC00D2F5BD /* SRArea.m in Sources */,
+				0E882746164658AC00D2F5BD /* SRRoute.m in Sources */,
+				0E882747164658AC00D2F5BD /* SRUnit.m in Sources */,
+				0E882750164658C000D2F5BD /* SRAreaLayer.m in Sources */,
+				0E882751164658C000D2F5BD /* SRFieldScene.m in Sources */,
+				0E882752164658C000D2F5BD /* SRMapLayer.m in Sources */,
+				0E882753164658C000D2F5BD /* SRUnitLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
