@@ -10,9 +10,13 @@
 
 @class RootViewController;
 
+@class SRFieldScene;
+
 @interface AppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow			*window;
 	RootViewController	*viewController;
+    
+    SRFieldScene *fieldScene;
 }
 
 @property (nonatomic, retain) UIWindow *window;
